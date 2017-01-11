@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18BF2E49137C047E9E07D398 /* Pods_JSPathSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C0EE0D8A22BFBE561112213 /* Pods_JSPathSC.framework */; };
+		E969BF881E24C33500F8DE26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E969BF871E24C33500F8DE26 /* main.m */; };
+		E969BF8B1E24C33500F8DE26 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E969BF8A1E24C33500F8DE26 /* AppDelegate.m */; };
+		E969BF8E1E24C33500F8DE26 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E969BF8D1E24C33500F8DE26 /* ViewController.m */; };
+		E969BF911E24C33500F8DE26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E969BF8F1E24C33500F8DE26 /* Main.storyboard */; };
+		E969BF941E24C33500F8DE26 /* JSPathSC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E969BF921E24C33500F8DE26 /* JSPathSC.xcdatamodeld */; };
+		E969BF961E24C33500F8DE26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E969BF951E24C33500F8DE26 /* Assets.xcassets */; };
+		E969BF991E24C33500F8DE26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E969BF971E24C33500F8DE26 /* LaunchScreen.storyboard */; };
+		E969BFA41E24C33500F8DE26 /* JSPathSCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E969BFA31E24C33500F8DE26 /* JSPathSCTests.m */; };
+		E969BFAF1E24C33500F8DE26 /* JSPathSCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E969BFAE1E24C33500F8DE26 /* JSPathSCUITests.m */; };
+		E969BFC11E24DCCA00F8DE26 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = E969BFC01E24DCCA00F8DE26 /* main.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E969BFA01E24C33500F8DE26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E969BF7B1E24C33500F8DE26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E969BF821E24C33500F8DE26;
+			remoteInfo = JSPathSC;
+		};
+		E969BFAB1E24C33500F8DE26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E969BF7B1E24C33500F8DE26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E969BF821E24C33500F8DE26;
+			remoteInfo = JSPathSC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D7DDCEC561CB71660CDC427 /* Pods-JSPathSC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSPathSC.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSPathSC/Pods-JSPathSC.release.xcconfig"; sourceTree = "<group>"; };
+		6C0EE0D8A22BFBE561112213 /* Pods_JSPathSC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSPathSC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA3FDFBBA6F1D505D6F485CF /* Pods-JSPathSC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSPathSC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSPathSC/Pods-JSPathSC.debug.xcconfig"; sourceTree = "<group>"; };
+		E969BF831E24C33500F8DE26 /* JSPathSC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSPathSC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E969BF871E24C33500F8DE26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E969BF891E24C33500F8DE26 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E969BF8A1E24C33500F8DE26 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E969BF8C1E24C33500F8DE26 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E969BF8D1E24C33500F8DE26 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E969BF901E24C33500F8DE26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E969BF931E24C33500F8DE26 /* JSPathSC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JSPathSC.xcdatamodel; sourceTree = "<group>"; };
+		E969BF951E24C33500F8DE26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E969BF981E24C33500F8DE26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E969BF9A1E24C33500F8DE26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E969BF9F1E24C33500F8DE26 /* JSPathSCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSPathSCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E969BFA31E24C33500F8DE26 /* JSPathSCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSPathSCTests.m; sourceTree = "<group>"; };
+		E969BFA51E24C33500F8DE26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E969BFAA1E24C33500F8DE26 /* JSPathSCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSPathSCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E969BFAE1E24C33500F8DE26 /* JSPathSCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSPathSCUITests.m; sourceTree = "<group>"; };
+		E969BFB01E24C33500F8DE26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E969BFC01E24DCCA00F8DE26 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E969BF801E24C33500F8DE26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BF2E49137C047E9E07D398 /* Pods_JSPathSC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E969BF9C1E24C33500F8DE26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E969BFA71E24C33500F8DE26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EB6D12F39BEC95F1D16DA5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C0EE0D8A22BFBE561112213 /* Pods_JSPathSC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A6C97EF445B3023BE78F50C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA3FDFBBA6F1D505D6F485CF /* Pods-JSPathSC.debug.xcconfig */,
+				4D7DDCEC561CB71660CDC427 /* Pods-JSPathSC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E969BF7A1E24C33500F8DE26 = {
+			isa = PBXGroup;
+			children = (
+				E969BF851E24C33500F8DE26 /* JSPathSC */,
+				E969BFA21E24C33500F8DE26 /* JSPathSCTests */,
+				E969BFAD1E24C33500F8DE26 /* JSPathSCUITests */,
+				E969BF841E24C33500F8DE26 /* Products */,
+				7A6C97EF445B3023BE78F50C /* Pods */,
+				3EB6D12F39BEC95F1D16DA5C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E969BF841E24C33500F8DE26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E969BF831E24C33500F8DE26 /* JSPathSC.app */,
+				E969BF9F1E24C33500F8DE26 /* JSPathSCTests.xctest */,
+				E969BFAA1E24C33500F8DE26 /* JSPathSCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E969BF851E24C33500F8DE26 /* JSPathSC */ = {
+			isa = PBXGroup;
+			children = (
+				E969BF891E24C33500F8DE26 /* AppDelegate.h */,
+				E969BF8A1E24C33500F8DE26 /* AppDelegate.m */,
+				E969BF8C1E24C33500F8DE26 /* ViewController.h */,
+				E969BF8D1E24C33500F8DE26 /* ViewController.m */,
+				E969BFC01E24DCCA00F8DE26 /* main.js */,
+				E969BF8F1E24C33500F8DE26 /* Main.storyboard */,
+				E969BF951E24C33500F8DE26 /* Assets.xcassets */,
+				E969BF971E24C33500F8DE26 /* LaunchScreen.storyboard */,
+				E969BF9A1E24C33500F8DE26 /* Info.plist */,
+				E969BF921E24C33500F8DE26 /* JSPathSC.xcdatamodeld */,
+				E969BF861E24C33500F8DE26 /* Supporting Files */,
+			);
+			path = JSPathSC;
+			sourceTree = "<group>";
+		};
+		E969BF861E24C33500F8DE26 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E969BF871E24C33500F8DE26 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E969BFA21E24C33500F8DE26 /* JSPathSCTests */ = {
+			isa = PBXGroup;
+			children = (
+				E969BFA31E24C33500F8DE26 /* JSPathSCTests.m */,
+				E969BFA51E24C33500F8DE26 /* Info.plist */,
+			);
+			path = JSPathSCTests;
+			sourceTree = "<group>";
+		};
+		E969BFAD1E24C33500F8DE26 /* JSPathSCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E969BFAE1E24C33500F8DE26 /* JSPathSCUITests.m */,
+				E969BFB01E24C33500F8DE26 /* Info.plist */,
+			);
+			path = JSPathSCUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E969BF821E24C33500F8DE26 /* JSPathSC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E969BFB31E24C33500F8DE26 /* Build configuration list for PBXNativeTarget "JSPathSC" */;
+			buildPhases = (
+				57852587B1959216F7C1B2B7 /* [CP] Check Pods Manifest.lock */,
+				E969BF7F1E24C33500F8DE26 /* Sources */,
+				E969BF801E24C33500F8DE26 /* Frameworks */,
+				E969BF811E24C33500F8DE26 /* Resources */,
+				C7A83FE29A9577210E2AF5D4 /* [CP] Embed Pods Frameworks */,
+				288C5314C751120245FC726B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSPathSC;
+			productName = JSPathSC;
+			productReference = E969BF831E24C33500F8DE26 /* JSPathSC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E969BF9E1E24C33500F8DE26 /* JSPathSCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E969BFB61E24C33500F8DE26 /* Build configuration list for PBXNativeTarget "JSPathSCTests" */;
+			buildPhases = (
+				E969BF9B1E24C33500F8DE26 /* Sources */,
+				E969BF9C1E24C33500F8DE26 /* Frameworks */,
+				E969BF9D1E24C33500F8DE26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E969BFA11E24C33500F8DE26 /* PBXTargetDependency */,
+			);
+			name = JSPathSCTests;
+			productName = JSPathSCTests;
+			productReference = E969BF9F1E24C33500F8DE26 /* JSPathSCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E969BFA91E24C33500F8DE26 /* JSPathSCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E969BFB91E24C33500F8DE26 /* Build configuration list for PBXNativeTarget "JSPathSCUITests" */;
+			buildPhases = (
+				E969BFA61E24C33500F8DE26 /* Sources */,
+				E969BFA71E24C33500F8DE26 /* Frameworks */,
+				E969BFA81E24C33500F8DE26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E969BFAC1E24C33500F8DE26 /* PBXTargetDependency */,
+			);
+			name = JSPathSCUITests;
+			productName = JSPathSCUITests;
+			productReference = E969BFAA1E24C33500F8DE26 /* JSPathSCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E969BF7B1E24C33500F8DE26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "MiYa-ShaoCong";
+				TargetAttributes = {
+					E969BF821E24C33500F8DE26 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					E969BF9E1E24C33500F8DE26 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E969BF821E24C33500F8DE26;
+					};
+					E969BFA91E24C33500F8DE26 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E969BF821E24C33500F8DE26;
+					};
+				};
+			};
+			buildConfigurationList = E969BF7E1E24C33500F8DE26 /* Build configuration list for PBXProject "JSPathSC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E969BF7A1E24C33500F8DE26;
+			productRefGroup = E969BF841E24C33500F8DE26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E969BF821E24C33500F8DE26 /* JSPathSC */,
+				E969BF9E1E24C33500F8DE26 /* JSPathSCTests */,
+				E969BFA91E24C33500F8DE26 /* JSPathSCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E969BF811E24C33500F8DE26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E969BF991E24C33500F8DE26 /* LaunchScreen.storyboard in Resources */,
+				E969BF961E24C33500F8DE26 /* Assets.xcassets in Resources */,
+				E969BF911E24C33500F8DE26 /* Main.storyboard in Resources */,
+				E969BFC11E24DCCA00F8DE26 /* main.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E969BF9D1E24C33500F8DE26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E969BFA81E24C33500F8DE26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		288C5314C751120245FC726B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSPathSC/Pods-JSPathSC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57852587B1959216F7C1B2B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C7A83FE29A9577210E2AF5D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSPathSC/Pods-JSPathSC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E969BF7F1E24C33500F8DE26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E969BF8E1E24C33500F8DE26 /* ViewController.m in Sources */,
+				E969BF941E24C33500F8DE26 /* JSPathSC.xcdatamodeld in Sources */,
+				E969BF8B1E24C33500F8DE26 /* AppDelegate.m in Sources */,
+				E969BF881E24C33500F8DE26 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E969BF9B1E24C33500F8DE26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E969BFA41E24C33500F8DE26 /* JSPathSCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E969BFA61E24C33500F8DE26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E969BFAF1E24C33500F8DE26 /* JSPathSCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E969BFA11E24C33500F8DE26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E969BF821E24C33500F8DE26 /* JSPathSC */;
+			targetProxy = E969BFA01E24C33500F8DE26 /* PBXContainerItemProxy */;
+		};
+		E969BFAC1E24C33500F8DE26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E969BF821E24C33500F8DE26 /* JSPathSC */;
+			targetProxy = E969BFAB1E24C33500F8DE26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E969BF8F1E24C33500F8DE26 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E969BF901E24C33500F8DE26 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E969BF971E24C33500F8DE26 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E969BF981E24C33500F8DE26 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E969BFB11E24C33500F8DE26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E969BFB21E24C33500F8DE26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E969BFB41E24C33500F8DE26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA3FDFBBA6F1D505D6F485CF /* Pods-JSPathSC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JSPathSC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miya.JSPathSC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E969BFB51E24C33500F8DE26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D7DDCEC561CB71660CDC427 /* Pods-JSPathSC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JSPathSC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miya.JSPathSC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E969BFB71E24C33500F8DE26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JSPathSCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miya.JSPathSCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSPathSC.app/JSPathSC";
+			};
+			name = Debug;
+		};
+		E969BFB81E24C33500F8DE26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JSPathSCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miya.JSPathSCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSPathSC.app/JSPathSC";
+			};
+			name = Release;
+		};
+		E969BFBA1E24C33500F8DE26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JSPathSCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miya.JSPathSCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JSPathSC;
+			};
+			name = Debug;
+		};
+		E969BFBB1E24C33500F8DE26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JSPathSCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miya.JSPathSCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JSPathSC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E969BF7E1E24C33500F8DE26 /* Build configuration list for PBXProject "JSPathSC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E969BFB11E24C33500F8DE26 /* Debug */,
+				E969BFB21E24C33500F8DE26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E969BFB31E24C33500F8DE26 /* Build configuration list for PBXNativeTarget "JSPathSC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E969BFB41E24C33500F8DE26 /* Debug */,
+				E969BFB51E24C33500F8DE26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E969BFB61E24C33500F8DE26 /* Build configuration list for PBXNativeTarget "JSPathSCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E969BFB71E24C33500F8DE26 /* Debug */,
+				E969BFB81E24C33500F8DE26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E969BFB91E24C33500F8DE26 /* Build configuration list for PBXNativeTarget "JSPathSCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E969BFBA1E24C33500F8DE26 /* Debug */,
+				E969BFBB1E24C33500F8DE26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E969BF921E24C33500F8DE26 /* JSPathSC.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E969BF931E24C33500F8DE26 /* JSPathSC.xcdatamodel */,
+			);
+			currentVersion = E969BF931E24C33500F8DE26 /* JSPathSC.xcdatamodel */;
+			path = JSPathSC.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E969BF7B1E24C33500F8DE26 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_JSPathSC {
+  umbrella header "Pods-JSPathSC-umbrella.h"
+
+  export *
+  module * { export * }
+}
